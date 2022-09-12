@@ -1,0 +1,43 @@
+header {
+    background-color: rgb(233, 19, 62);
+    color: white;
+    text-align: center;       
+    height: 75px;
+}
+/*set background image to main */
+main {
+    background-image: url("../src/background_img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.icon {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+
+img {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+h5 {
+    margin-left: 15px;
+    margin-top: 13px;
+}
+
+.row {   
+    display: flex;
+    align-items : center;
+}
+
+.manager, .engineer, .intern {
+    border: solid black 2px;
+    border-radius: 15px;
+    height: 35vh;
+    margin-top: 2.5rem;
+    background-color: rgb(23, 207, 23);
+}
